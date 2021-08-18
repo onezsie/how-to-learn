@@ -20,24 +20,26 @@
 
     <main class="content">
       <section class="description">
-        <h2 class="description__brief">Главные проблемы в обучении</h2>
-        <div class="main-text">
-          <p class="main-text__paragraph">Ни в школе, ни в институте нас не учат тому, 
-            как правильно изучать материал. Мы готовимся к экзаменам и учим билеты.
+        <div class="two-columns">
+          <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, 
+             как правильно изучать материал. Мы готовимся к экзаменам и учим билеты.
              Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, 
              но часто в итоге это не дает нам реального знания. Зубрежка быстро 
              выветривается и не приносит пользы.</p>
-          <p class="main-text__paragraph"><span class="span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому
+            <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому
              мало где учат. Что с этим делать?</p>
-          <p class="main-text__paragraph">Конкретные техники и упражнения помогают изменить
+            <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить
              подход к обучению, сделать его эффективным и захватывающим. Эти же техники 
              применяются на примере обучения в Практикуме.</p>
-        </div>
+         </div>
+       </div>
       </section>
 
       <section class="digits">
-        <h2 class="digits__title">Цифры и факты</h2>
-        <h3 class="digits__subtitle">Про учебу и мозг</h3>
+        <h2 class="section-title">Цифры и факты</h2>
+        <h3 class="section-subtitle">Про учебу и мозг</h3>
         <ul class="table list">
           <li class="table__cell">
             <h3 class="table__header">86 миллиардов</h3>
@@ -77,7 +79,7 @@
       </section>
 
       <section class="feynman">
-        <h1 class="feynman__title">Метод Фейнмана</h1>
+        <h2 class="feynman__title">Метод Фейнмана</h2>
         <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
         <a href="#" class="feynman__link">Подробнее &rarr;</a>
         <img src="./images/feynman.png" alt="Здесь должна была быть картина, но что-то пошло не так :(" 
@@ -85,8 +87,8 @@
       </section>
 
       <section class="kaufman">
-          <h2 class="digits__title digits__title_dark_theme">Принципы обучения</h2>
-          <h3 class="digits__subtitle digits__subtitle_dark_theme">от Джоша Кауфмана</h3>
+          <h2 class="section-title section-title_dark_theme">Принципы обучения</h2>
+          <h3 class="section-subtitle section-subtitle_dark_theme">от Джоша Кауфмана</h3>
           <ul class="table list">
             <li class="table__cell table__cell_theme_dark">
               <h3 class="table__header">1</h3>
@@ -129,17 +131,18 @@
                 <p class="table__text">Уделяйте внимание количеству и скорости.</p>
             </li>
           </ul>
-          <img src="./images/kaufman-triangle.svg" alt="Здесь должна была быть картина, но что-то пошло не так :(" class="kaufman__triangle">
+          <!-- <img src="./images/kaufman-triangle.svg" alt="Здесь должна была быть картина, но что-то пошло не так :(" class="kaufman__triangle"> -->
+          <div class="kaufman__triangle"></div>
       </section>
     </main>
 
     <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__column footer__column_copyright">
+        <div class="footer__column footer__column_content_copyright">
           <div class="logo logo_place_footer"></div>
           <p class="footer__author">&COPY; 2021. Зиганшин Дмитрий</p>
         </div>
-        <nav class="footer__column footer__column_info">
+        <nav class="footer__column footer__column_content_info">
           <h2 class="footer__column-heading">О практикуме</h2>
           <div class="footer__column-links">
             <a href="#" class="footer__column-link">Главная</a>
@@ -147,12 +150,12 @@
             <a href="#" class="footer__column-link">Наставники</a>
           </div>
         </nav>
-        <nav class="footer__column footer__column_social">
+        <nav class="footer__column footer__column_content_social">
           <h2 class="footer__column-heading">Соцсети</h2>
           <div class="footer__column-links">
-          <a href="#" class="footer__column-link"><img src="./images/facebook_color_white.svg" alt="Fb" class="footer__column-icon">Facebook</a>
-          <a href="#" class="footer__column-link"><img src="./images/vk_color_white.svg" alt="Vk" class="footer__column-icon">Вконтакте </a>
-          <a href="#" class="footer__column-link"><img src="./images/instagram_color_white.svg" alt="Ig" class="footer__column-icon">Instagram</a>
+            <a href="#" class="footer__column-link"><img src="./images/facebook_color_white.svg" alt="Фейсбук" class="footer__column-icon">Facebook</a>
+            <a href="#" class="footer__column-link"><img src="./images/vk_color_white.svg" alt="Вконтакте" class="footer__column-icon">Вконтакте </a>
+            <a href="#" class="footer__column-link"><img src="./images/instagram_color_white.svg" alt="Инстаграм" class="footer__column-icon">Instagram</a>
           </div>
         </nav>
       </div>
