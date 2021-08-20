@@ -133,7 +133,7 @@
   font-size: 24px;
   text-align: center;
   font-weight: normal;
-  margin-bottom: 60px;
+  margin: 20px 0 60px;
   z-index: 1;
 }
 
@@ -159,7 +159,6 @@
   font-size: 24px;
   font-weight: bold;
   margin: 0;
-  /* margin-bottom: 20px; */
 }
 
 .table__text {
@@ -223,11 +222,11 @@
   flex-direction: column;
 }
 
-.section-title_dark_theme {
+.section-title_theme_dark {
   color: white;
 }
 
-.section-subtitle_dark_theme {
+.section-subtitle_theme_dark {
   color: white;
   margin-bottom: 0;
 }
@@ -268,7 +267,6 @@
 
 .footer__column {
   display: flex;
-  margin-bottom: 34;
 }
 
 .footer__column_content_copyright {
