@@ -441,6 +441,12 @@ padding-top: 100px;
   display: flex;
 }
 
+/* .footer {
+  background-color: #1f1f1f;
+  min-height: 350px;
+  display: flex;
+} */
+
 .footer__columns {
   display: flex;
   margin: 60px auto 40px;
