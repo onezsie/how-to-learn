@@ -2,7 +2,7 @@
   display: flex;
   width: 80%;
   min-width: 784px;
-  margin: 100px auto;
+  margin: auto;
   color: #2f80ed;
   align-items: flex-start;
 }
