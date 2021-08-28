@@ -1,0 +1,4 @@
+.footer__column_content_social {
+  min-width: 150px;
+  flex-direction: column;
+}
